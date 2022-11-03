@@ -11,12 +11,12 @@ Unpacked ramdisk is located in **build/unzip_boot/root**
 
 ### Linux:
 
-To build kernel, install **OpenJDK 11** and execute:
+To build kernel, install **openjdk-11-jdk** and run:
 
     ./gradlew pack
 
 ### Windows:
 
-To build kernel, install **OpenJDK 11** and execute:
+To build kernel, install **OpenJDK 11** and run:
 
     ./gradlew.bat pack
