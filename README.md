@@ -15,7 +15,7 @@ To build kernel, install **OpenJDK 11** and execute:
 
     ./gradlew pack
 
-### Windows^
+### Windows:
 
 To build kernel, install **OpenJDK 11** and execute:
 
