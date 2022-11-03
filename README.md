@@ -1,7 +1,5 @@
 
-# SM-G355H TPSTM Kernel 
-
-This branch contains stable builds, which are recommended to use.
+Here are fresh but unstable builds. I do not recommend using it if stability is important to you.
 
 
 *I am not responsible for your device XD*
@@ -14,14 +12,15 @@ Unpacked ramdisk is located in **build/unzip_boot/root**
 
 ### Linux:
 
-
 To build kernel, install **openjdk-11-jdk** and run:
 
     ./gradlew pack
 
 ### Windows:
 
-
-To build kernel, install **OpenJDK 11** and run:
+To build kernel, install **OpenJDK 11** and execute:
 
     ./gradlew.bat pack
+
+*yeah, so easy*
+
