@@ -1,0 +1,33 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 0,
+    "headerSize" : 0,
+    "loadBase" : 0,
+    "tagsOffset" : 256,
+    "board" : "",
+    "pageSize" : 2048,
+    "cmdline" : "console=ttyS1,115200n8",
+    "osVersion" : null,
+    "osPatchLevel" : null,
+    "hash" : "jJdEcrADJwQoS0qu+qBT99c9IxAAAAAAAAAAAAAAAAA=",
+    "verify" : "VB1.0",
+    "imageSize" : 12756264
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 2048,
+    "size" : 12357648,
+    "loadOffset" : 32768
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 12361728,
+    "size" : 391264,
+    "loadOffset" : 16777216
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : null
+}
