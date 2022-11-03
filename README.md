@@ -1,7 +1,10 @@
-# Total madness
-This branch is the most unstable and insecure branch of all. It is strongly not recommended to use it because there may be critical errors for the device. I am not responsible for the use of content from here.
+
+# SM-G355H TPSTM Kernel 
+
+This branch contains stable builds, which are recommended to use.
 
 
+*I am not responsible for your device XD*
 
 # Build
 
@@ -11,11 +14,13 @@ Unpacked ramdisk is located in **build/unzip_boot/root**
 
 ### Linux:
 
+
 To build kernel, install **openjdk-11-jdk** and run:
 
     ./gradlew pack
 
 ### Windows:
+
 
 To build kernel, install **OpenJDK 11** and run:
 
