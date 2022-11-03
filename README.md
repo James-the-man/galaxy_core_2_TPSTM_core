@@ -16,4 +16,10 @@ To build kernel, install **OpenJDK 11** and execute:
 
     ./gradlew pack
 
+### Linux:
+
+To build kernel, install **OpenJDK 11** and execute:
+
+    ./gradlew.bet pack
+
 *yeah, so easy*
